@@ -44,8 +44,8 @@ input {
 }
 
 button {
-  padding: 10px 23px;
-  font-size: 15px;
+  padding: 10px 20px;
+  font-size: 13px;
   background-color: #4CAF50;
   color: white;
   border: none;
@@ -60,7 +60,7 @@ button:hover {
 
 #feedback {
   margin-top: 40px;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: bold;
   text-align: center;
   border-radius: 10px;
