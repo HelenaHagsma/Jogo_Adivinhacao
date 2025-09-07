@@ -1,60 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
 body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #6a11cb, #2575fc);
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
+  font-family: "Lexend", sans-serif;
+  background: linear-gradient(to top, rgb(185, 105, 223), rgb(122, 0, 170));
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
-        h1 {
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
-        }
+.container {
+  background-color: #ffffff2d;
+  padding: 60px 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 
-        .container {
-            background: rgba(255, 255, 255, 0.15);
-            padding: 30px 40px;
-            border-radius: 15px;
-            box-shadow: 0 8px 30px rgba(0,0,0,0.3);
-            text-align: center;
-            width: 320px;
-        }
+h1 {
+  color: #48004bdc;
+  font-size: 40px;
 
-        input[type="number"] {
-            padding: 10px;
-            font-size: 1.1rem;
-            border-radius: 8px;
-            border: none;
-            width: 100%;
-            margin-bottom: 15px;
-            box-sizing: border-box;
-        }
+}
 
-        button {
-            background-color: #fff;
-            color: #2575fc;
-            font-weight: bold;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 8px;
-            font-size: 1rem;
-            cursor: pointer;
-            width: 100%;
-            transition: background-color 0.3s ease;
-        }
+p{
+    font-family: "Lexend", sans-serif;
+    font-size: 23px;
+    padding: 0px;
+    color: #f6d8fc;
+}
 
-        button:hover {
-            background-color: #cce0ff;
-        }
+input {
+  padding: 10px;
+  font-size: 23px;
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
 
-        #message {
-            margin-top: 20px;
-            font-size: 1.2rem;
-            min-height: 30px;
-            font-weight: 600;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-        }
+button {
+  padding: 15px 25px;
+  font-size: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+}
+
+button:hover {
+  background-color: #7a008a;
+}
+
+#feedback {
+  margin-top: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  width: 55%;
+  margin-left: 20%;
+}
