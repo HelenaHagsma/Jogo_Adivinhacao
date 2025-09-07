@@ -2,7 +2,7 @@
 
 body {
   font-family: "Lexend", sans-serif;
-  background: linear-gradient(to top, rgb(185, 105, 223), rgb(122, 0, 170));
+  background: linear-gradient(to top, rgb(204, 140, 247), rgb(112, 0, 187));
   background-position: center;
   background-size: cover;
   display: flex;
@@ -14,7 +14,7 @@ body {
 
 .container {
   background-color: #ffffff2d;
-  padding: 60px 40px;
+  padding: 40px 20px;
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
